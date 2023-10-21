@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drag & Drop</title>
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <input type="text" id="task" placeholder="Add TODO">
+            <img onclick="addTodo()" src="add.png">
+        </div>
+        <div class="content">
+            <div id="left">
+                <h2 id="todo">TODO:</h2>
+            </div>
+            <div id="right">
+                <h2 id="complete">Completed:</h2>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
